@@ -1,0 +1,140 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+*{
+  margin: 0px;
+}
+
+.WholeContainer{
+  height:100vh;
+  width:100vw;
+  background-image:url("https://img.freepik.com/free-photo/paper-background_53876-65521.jpg?t=st=1720077729~exp=1720081329~hmac=bfd6b9c960b47e760060e94c91112f7b0b7e7f9045ad131e1008a865e48e3701&w=1060");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InnerContainer{
+  width:93vw;
+  height:90vh;
+  background-image:url("https://img.freepik.com/free-photo/blue-gray-gradient-background_53876-108485.jpg?t=st=1720077587~exp=1720081187~hmac=ad3289cb63bca91969f3fbbbadf7c3e482a4c2f5e73615fd19b3139c6dc77cc0&w=996");
+  background-size: cover;
+  border-radius:18px;
+}
+
+.Head{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 5px;
+}
+
+.SemesterName{
+  margin-left:3vw;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.labelText{
+  font-size:30px;
+  color: #000000;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding:20px;
+}
+
+.InputRollNo{
+  width:200px;
+  height:30px;
+  font-size:20px;
+  border-radius:6px;
+  border-width: 0px;
+  outline: none;
+  padding: 5px;
+}
+
+.firstPart{
+  margin-left:30px;
+}
+
+.SearchForm{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top:20px;
+  margin-left:30px;
+}
+
+.SubmitBtn{
+  width:120px;
+  height:40px;
+  margin-left: 30px;
+  margin-top:5px;
+  border-width: 0px;
+   align-self: flex-start;
+    background-color:#e87e6a;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size:20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline: none;
+}
+
+.hr {
+  border: 1px solid #b5b7c4;
+  width: 90%;
+  margin-top: 25px;
+  margin-bottom:20px;
+}
+
+.hr1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
